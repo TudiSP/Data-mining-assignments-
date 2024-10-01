@@ -1,0 +1,34 @@
+
+Task 1 questions:
+1.Purpose of adding Gaussian noise:
+Adding Gaussian noise to the output variable ( Y ) simulates real-world data,
+which often contains some level of randomness or measurement error.
+This helps in evaluating the robustness and performance of regression models
+under realistic conditions.
+2.Importance of visualizing the data and the true functions:
+Visualizing the data and the true functions allows you to:
+Understand the underlying relationship between the variables.
+Assess how well the model fits the data.
+Identify any patterns, trends, or anomalies in the data.
+Evaluate the impact of noise on the data and the model's predictions.
+This visualization is crucial for diagnosing issues related to model
+bias and variance, and for making informed decisions about model selection and tuning.
+
+Task 2 questions:
+
+1. What is a polynomial regression model and how is it different from a linear regression model?
+A polynomial regression model is a type of regression analysis where the relationship between the independent variable (X) and the dependent variable (Y) is modeled as an (n)th degree polynomial
+What do you expect to happen with the bias and variance of polynomial regression models when the polynomial degree increases?
+Task 3 questions:
+
+1.Is it necessary to train multiple models to estimate the bias, variance, and irreducible error?
+Yes, it is necessary to train multiple models to estimate the bias, variance,
+and irreducible error. This is because bias and variance are statistical
+properties that require multiple samples to estimate. Training multiple models
+on different subsets of the data allows you to observe how the model's predictions vary,
+which is essential for calculating these metrics.
+3.Is it possible to estimate the model’s variance without access to the true regression function?
+Yes, it is possible to estimate the model’s variance without access to the true regression
+function. Variance measures how much the model's predictions vary for different
+training sets. By training multiple models on different subsets of the data and observing
+the variability in their predictions, you can estimate the model's variance.
